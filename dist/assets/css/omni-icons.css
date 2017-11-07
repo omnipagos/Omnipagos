@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?c01w40');
+  src:  url('../fonts/icomoon.eot?c01w40#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?c01w40') format('truetype'),
+    url('../fonts/icomoon.woff?c01w40') format('woff'),
+    url('../fonts/icomoon.svg?c01w40#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="omni-"], [class*=" omni-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.omni-ebits:before {
+  content: "\d000";
+}
+.omni-oxxo:before {
+  content: "\d001";
+}
+.omni-paynet:before {
+  content: "\d002";
+}
+.omni-soriana:before {
+  content: "\d003";
+}
+.omni-walmart:before {
+  content: "\d004";
+}
